@@ -222,4 +222,12 @@ This project creates a chatbot with memory (it remembers conversation history) u
 -   *(Note: This project does not have a `model_train.py` because it uses a pre-trained LLM. A `client_test.py` is also omitted as it can be easily tested via the user interface.)*
 
 **How to Run:**
-1.  In your terminal, activate the virtual environment while in the main **`MLOp
+1.  In your terminal, activate the virtual environment while in the main **`MLOps_Project`** directory.
+2.  **Start the Backend (API Server):**
+    ```bash
+    uvicorn 3_chatbot_with_LLM.main:app --reload
+    ```
+3.  Open a new terminal, activate the virtual environment again, and **start the Frontend (UI):**
+    ```bash
+    streamlit run 3_chatbot_with_LLM/ui.py
+    ```
