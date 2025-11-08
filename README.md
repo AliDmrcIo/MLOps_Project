@@ -1,5 +1,5 @@
 ## TR:
-# Pratik MLOps Proje Koleksiyonu
+# Pratik MLOps Projesi
 
 Bu repository, MLOps (Machine Learning Operations) prensiplerini üç farklı yapay zeka alanında uygulamalı olarak gösteren bir proje koleksiyonu içermektedir. Her bir proje, modelin eğitilmesinden başlayarak FastAPI ile bir API olarak sunulmasına, Streamlit ile bir kullanıcı arayüzü oluşturulmasına ve test edilmesine kadar olan tüm yaşam döngüsünü kapsar.
 
@@ -117,7 +117,7 @@ Bu proje, yerel olarak çalışan bir Büyük Dil Modeli (LLaMA 3.2) ve `LangCha
 
  
 ## ENG:
-# Practical MLOps Project Collection
+# Practical MLOps Project
 
 This repository contains a collection of projects that demonstrate MLOps (Machine Learning Operations) principles in practice across three different domains of artificial intelligence. Each project covers the entire lifecycle, from model training to deployment as an API with FastAPI, creating a user interface with Streamlit, and testing.
 
