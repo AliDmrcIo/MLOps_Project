@@ -24,8 +24,8 @@ Projeleri çalıştırmak için aşağıdaki genel adımları izleyin. Her proje
 
 1.  **Repository'yi Klonlayın:**
     ```bash
-    git clone https://github.com/kullanici-adiniz/mlops.git
-    cd mlops
+    git clone https://github.com/AliDmrcIo/MLOps_Project.git
+    cd MLOps_Project
     ```
 
 2.  **Sanal Ortamı Aktif Edin:**
@@ -140,8 +140,8 @@ Follow these general steps to run the projects. Specific commands for each proje
 
 1.  **Clone the Repository:**
     ```bash
-    git clone https://github.com/your-username/mlops.git
-    cd mlops
+    git clone https://github.com/AliDmrcIo/MLOps_Project.git
+    cd MLOps_Project
     ```
 
 2.  **Activate the Virtual Environment:**
