@@ -9,7 +9,7 @@ Bu proje, MLOps yaşam döngüsünün temel adımlarını, klasik bir makine ö�
 
 Hastaya ait 30 farklı tıbbi özelliğe dayanarak, bir meme kanseri tümörünün **iyi huylu (benign)** mu yoksa **kötü huylu (malignant)** mu olduğunu tahmin eden bir sistem oluşturmaktır.
 
-## Kullanılan Teknolojiler
+## 🛠️ Kullanılan Teknolojiler
 
 - **Model:** `Scikit-learn` (RandomForestClassifier)
 - **Veri Seti:** Scikit-learn `breast_cancer`
@@ -17,7 +17,7 @@ Hastaya ait 30 farklı tıbbi özelliğe dayanarak, bir meme kanseri tümörün�
 - **Frontend (Kullanıcı Arayüzü):** `Streamlit`
 - **Model Kaydı:** `Joblib` (`.pkl`)
 
-## Dosya Yapısı ve Görevleri
+## 📂 Dosya Yapısı ve Görevleri
 
 -   **`model_train.py`**: Modeli `breast_cancer` veri seti ile eğitir ve `breast_cancer_model.pkl` olarak kaydeder.
 -   **`main.py`**: `FastAPI` kullanarak bir web sunucusu oluşturur. Kaydedilen `.pkl` modelini yükler ve gelen veri için tahmin yapan bir `/predict` endpoint'i sunar.
@@ -71,7 +71,7 @@ This project demonstrates the fundamental steps of the MLOps lifecycle through a
 
 To create a system that predicts whether a breast cancer tumor is **benign** or **malignant** based on 30 different medical features belonging to a patient.
 
-## Technologies Used
+## 🛠️ Technologies Used
 
 - **Model:** `Scikit-learn` (RandomForestClassifier)
 - **Dataset:** Scikit-learn `breast_cancer`
@@ -79,7 +79,7 @@ To create a system that predicts whether a breast cancer tumor is **benign** or 
 - **Frontend (User Interface):** `Streamlit`
 - **Model Serialization:** `Joblib` (`.pkl`)
 
-## File Structure and Roles
+## 📂 File Structure and Roles
 
 -   **`model_train.py`**: Trains the model with the `breast_cancer` dataset and saves it as `breast_cancer_model.pkl`.
 -   **`main.py`**: Creates a web server using `FastAPI`. It loads the saved `.pkl` model and serves a `/predict` endpoint that makes predictions on incoming data.
