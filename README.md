@@ -18,7 +18,7 @@ Bu koleksiyon, yapay zekanın üç farklı dalını ele alan projelerden oluşur
 - **Frontend (Kullanıcı Arayüzü):** `Streamlit`
 - **Model Serileştirme:** `Joblib`, `H5`
 
-## Kurulum ve Başlangıç
+## ⚙️ Kurulum ve Başlangıç
 
 Projeleri çalıştırmak için aşağıdaki genel adımları izleyin. Her projenin kendine özgü çalıştırma komutları ilgili başlık altında verilmiştir.
 
@@ -49,7 +49,7 @@ Projeleri çalıştırmak için aşağıdaki genel adımları izleyin. Her proje
 
 ---
 
-## Proje Detayları ve Dosya Açıklamaları
+## 📁 Proje Detayları ve Dosya Açıklamaları
 
 ### 1. Meme Kanseri Tahmini (Klasik Makine Öğrenmesi)
 
@@ -136,7 +136,7 @@ This collection consists of projects covering three different branches of AI:
 - **Frontend (User Interface):** `Streamlit`
 - **Model Serialization:** `Joblib`, `H5`
 
-## Setup and Getting Started
+## ⚙️ Setup and Getting Started
 
 Follow these general steps to run the projects. Specific commands for each project are provided under their respective headings.
 
@@ -167,7 +167,7 @@ Follow these general steps to run the projects. Specific commands for each proje
 
 ---
 
-## Project Details and File Descriptions
+## 📁 Project Details and File Descriptions
 
 ### 1. Breast Cancer Prediction (Classic Machine Learning)
 
