@@ -3,7 +3,7 @@
 
 Bu repository, MLOps (Machine Learning Operations) prensiplerini üç farklı yapay zeka alanında uygulamalı olarak gösteren bir proje koleksiyonu içermektedir. Her bir proje, modelin eğitilmesinden başlayarak FastAPI ile bir API olarak sunulmasına, Streamlit ile bir kullanıcı arayüzü oluşturulmasına ve test edilmesine kadar olan tüm yaşam döngüsünü kapsar.
 
-## 🚀 Projeler ve Kullanılan Teknolojiler
+## Projeler ve Kullanılan Teknolojiler
 
 Bu koleksiyon, yapay zekanın üç farklı dalını ele alan projelerden oluşur:
 
@@ -18,7 +18,7 @@ Bu koleksiyon, yapay zekanın üç farklı dalını ele alan projelerden oluşur
 - **Frontend (Kullanıcı Arayüzü):** `Streamlit`
 - **Model Serileştirme:** `Joblib`, `H5`
 
-## 🛠️ Kurulum ve Başlangıç
+## Kurulum ve Başlangıç
 
 Projeleri çalıştırmak için aşağıdaki genel adımları izleyin. Her projenin kendine özgü çalıştırma komutları ilgili başlık altında verilmiştir.
 
@@ -49,7 +49,7 @@ Projeleri çalıştırmak için aşağıdaki genel adımları izleyin. Her proje
 
 ---
 
-## 📂 Proje Detayları ve Dosya Açıklamaları
+## Proje Detayları ve Dosya Açıklamaları
 
 ### 1. Meme Kanseri Tahmini (Klasik Makine Öğrenmesi)
 
@@ -62,7 +62,7 @@ Bu proje, Scikit-learn kullanılarak eğitilmiş bir `RandomForestClassifier` mo
 -   `client_test.py`: FastAPI sunucusunun doğru çalışıp çalışmadığını test etmek için `/predict` endpoint'ine programatik olarak örnek bir istek gönderir.
 
 **Nasıl Çalıştırılır?**
-1.  Terminalde `mlops` klasöründeyken sanal ortamı aktif edin.
+1.  Ana **`MLOps_Project`** klasöründeyken sanal ortamı aktif edin.
 2.  **Backend'i (API Sunucusu) başlatın:**
     ```bash
     uvicorn 1_breast_cancer_project_with_ML.main:app --reload
@@ -84,7 +84,7 @@ Bu proje, MNIST veri seti üzerinde TensorFlow/Keras ile eğitilmiş bir Evrişi
 -   `images/`: Test için kullanılacak örnek resimleri içerir.
 
 **Nasıl Çalıştırılır?**
-1.  Terminalde `mlops` klasöründeyken sanal ortamı aktif edin.
+1.  Ana **`MLOps_Project`** klasöründeyken sanal ortamı aktif edin.
 2.  **Backend'i (API Sunucusu) başlatın:**
     ```bash
     uvicorn 2_handwritten_digits_project_with_DL.main:app --reload
@@ -104,7 +104,7 @@ Bu proje, yerel olarak çalışan bir Büyük Dil Modeli (LLaMA 3.2) ve `LangCha
 -   *(Not: Bu projede `model_train.py` yoktur çünkü önceden eğitilmiş bir LLM kullanılmaktadır. `client_test.py` ise arayüz üzerinden kolayca test edilebildiği için bu projeye dahil edilmemiştir.)*
 
 **Nasıl Çalıştırılır?**
-1.  Terminalde `mlops` klasöründeyken sanal ortamı aktif edin.
+1.  Ana **`MLOps_Project`** klasöründeyken sanal ortamı aktif edin.
 2.  **Backend'i (API Sunucusu) başlatın:**
     ```bash
     uvicorn 3_chatbot_with_LLM.main:app --reload
@@ -114,12 +114,14 @@ Bu proje, yerel olarak çalışan bir Büyük Dil Modeli (LLaMA 3.2) ve `LangCha
     streamlit run 3_chatbot_with_LLM/ui.py
     ```
 
-    ## ENG:
-    # Practical MLOps Project Collection
+
+ 
+## ENG:
+# Practical MLOps Project Collection
 
 This repository contains a collection of projects that demonstrate MLOps (Machine Learning Operations) principles in practice across three different domains of artificial intelligence. Each project covers the entire lifecycle, from model training to deployment as an API with FastAPI, creating a user interface with Streamlit, and testing.
 
-## 🚀 Projects and Technologies Used
+## Projects and Technologies Used
 
 This collection consists of projects covering three different branches of AI:
 
@@ -134,7 +136,7 @@ This collection consists of projects covering three different branches of AI:
 - **Frontend (User Interface):** `Streamlit`
 - **Model Serialization:** `Joblib`, `H5`
 
-## 🛠️ Setup and Getting Started
+## Setup and Getting Started
 
 Follow these general steps to run the projects. Specific commands for each project are provided under their respective headings.
 
@@ -165,7 +167,7 @@ Follow these general steps to run the projects. Specific commands for each proje
 
 ---
 
-## 📂 Project Details and File Descriptions
+## Project Details and File Descriptions
 
 ### 1. Breast Cancer Prediction (Classic Machine Learning)
 
@@ -178,7 +180,7 @@ This project uses a `RandomForestClassifier` model trained with Scikit-learn to 
 -   `client_test.py`: Sends a programmatic sample request to the `/predict` endpoint to test if the FastAPI server is working correctly.
 
 **How to Run:**
-1.  In your terminal, activate the virtual environment while in the `mlops` directory.
+1.  In your terminal, activate the virtual environment while in the main **`MLOps_Project`** directory.
 2.  **Start the Backend (API Server):**
     ```bash
     uvicorn 1_breast_cancer_project_with_ML.main:app --reload
@@ -200,7 +202,7 @@ This project uses a Convolutional Neural Network (CNN) trained on the MNIST data
 -   `images/`: Contains sample images for testing.
 
 **How to Run:**
-1.  In your terminal, activate the virtual environment while in the `mlops` directory.
+1.  In your terminal, activate the virtual environment while in the main **`MLOps_Project`** directory.
 2.  **Start the Backend (API Server):**
     ```bash
     uvicorn 2_handwritten_digits_project_with_DL.main:app --reload
@@ -220,12 +222,4 @@ This project creates a chatbot with memory (it remembers conversation history) u
 -   *(Note: This project does not have a `model_train.py` because it uses a pre-trained LLM. A `client_test.py` is also omitted as it can be easily tested via the user interface.)*
 
 **How to Run:**
-1.  In your terminal, activate the virtual environment while in the `mlops` directory.
-2.  **Start the Backend (API Server):**
-    ```bash
-    uvicorn 3_chatbot_with_LLM.main:app --reload
-    ```
-3.  Open a new terminal, activate the virtual environment again, and **start the Frontend (UI):**
-    ```bash
-    streamlit run 3_chatbot_with_LLM/ui.py
-    ```
+1.  In your terminal, activate the virtual environment while in the main **`MLOp
